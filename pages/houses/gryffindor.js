@@ -35,7 +35,7 @@ const person1 = (personagem)=>{
             <Container maxWidth="xl">
                 <Grid container spacing={5}>
                     {personagens.map((personagem,key) =>(
-                     <Grid item xs={2.2} key={key} onClick={() => person1(personagem) }>
+                     <Grid item sm={4} md={3} lg={2.2} key={key} onClick={() => person1(personagem) }>
                         <Cards personagem={personagem}/> 
                         
                      </Grid>

@@ -3,6 +3,8 @@ import { minWidth } from "@mui/system"
 
 
 export default function Fundo() {
+
+
     return (
       <div>
       <div className="goldBox"></div>
@@ -24,7 +26,7 @@ export default function Fundo() {
        
   
     <ThemeProvider
-    theme={createTheme({
+    theme= {createTheme({
       breakpoints: {
         values: {
           laptop: 1024,
@@ -35,23 +37,23 @@ export default function Fundo() {
           mobileSm: 360,
           desktop: 1280,
           desktopHD:1440,
-          desktopFH: 1920,
+          desktopFH: 1920, 
         },
       },
     })}>
       
       <Grid container rowSpacing={2} columnSpacing={{mobileSm:1, mobileMd:1 ,mobileL:1, mobileXL: 1, tablet: 2, laptop: 3, desktop: 4, desktopHD:5,  desktopFH: 6}}>
-        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px", marginLeft:"64px"}}>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.5} sx={{marginLeft:"64px"}}>
           <ButtonBase size="small" href="/houses/gryffindor"><img src="/images/grifinoria.png" className="fotos"/></ButtonBase>
         </Grid>
-        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px"}} >
-          <ButtonBase><img src="/images/sonserina.png" className="fotos"/></ButtonBase>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.5}>
+          <ButtonBase href="/houses/slytherin"><img src="/images/sonserina.png" className="fotos"/></ButtonBase>
         </Grid>
-        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px"}}>
-          <ButtonBase><img src="/images/lufa-lufa.png" className="fotos"/></ButtonBase>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.5}>
+          <ButtonBase href="/houses/hufflepuff"><img src="/images/lufa-lufa.png" className="fotos"/></ButtonBase>
         </Grid>
-        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px"}}>
-          <ButtonBase><img src="/images/corvinal.png" className="fotos"/></ButtonBase>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.5}>
+          <ButtonBase href="/houses/ravenclaw"><img src="/images/corvinal.png" className="fotos"/></ButtonBase>
         </Grid>
        
       </Grid>

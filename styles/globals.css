@@ -28,6 +28,7 @@ a {
   }
 }
 
+
  .goldBox{
   height: 29px;
   width: 100%;
@@ -107,9 +108,10 @@ margin-top: 545.5px;
 margin-left: 418px;
 }
 
-.fotos{
+.css-1k7ndv0-MuiGrid-root>.MuiGrid-item{
   width: 100%;
   height: 100%;
+  margin-top: 619px;
  
 } 
 
@@ -794,6 +796,12 @@ margin-left: 418px;
     margin-left: 52px;
 
   }
+  .css-1k7ndv0-MuiGrid-root>.MuiGrid-item{
+    width: 100%;
+    height: 100%;
+    margin-top: 450px;
+   
+  } 
   
   .imagemPopup{
     height: 356px;
@@ -889,6 +897,12 @@ margin-left: 418px;
     margin-left: 52px;
 
   }
+  .css-1k7ndv0-MuiGrid-root>.MuiGrid-item{
+    width: 100%;
+    height: 100%;
+    margin-top: 450px;
+   
+  } 
   
   .imagemPopup{
     height: 356px;
