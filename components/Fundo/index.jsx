@@ -1,5 +1,5 @@
-import { Button, Link } from "@mui/material";
-import { Box } from "@mui/system";
+import { Grid, Button, ThemeProvider, createTheme, Link, ButtonBase  } from "@mui/material"
+import { minWidth } from "@mui/system"
 
 
 export default function Fundo() {
@@ -22,34 +22,40 @@ export default function Fundo() {
       </div>
 
        
-        
-         <button style={{cursor:"pointer"}} >
-            <Link href="/houses/gryffindor"> 
-              <img src="/images/grifinoria.png" alt="grifinoria" className="grifinoria" />
-            </Link> 
-          </button>
-
-          <button style={{cursor:"pointer"}}> 
-            <Link href="/houses/slytherin">
-              <img src="/images/sonserina.png" alt="sonserina" className="sonserina" />
-            </Link>
-          </button>
-
-          <button style={{cursor:"pointer"}}>
-            <Link href="/houses/hufflepuff">
-              <img src="/images/lufa-lufa.png" alt="lufa-lufa" className="lufa-lufa" />
-            </Link>
-          </button>
-
-          <button style={{cursor:"pointer"}}>
-            <Link href="/houses/ravenclaw">
-            <img src="/images/corvinal.png" alt="corvinal" className="corvinal" />
-            </Link>
-          </button>
-
-     
-
   
+    <ThemeProvider
+    theme={createTheme({
+      breakpoints: {
+        values: {
+          laptop: 1024,
+          tablet: 800,
+          mobileXL: 640,
+          mobileL: 480,
+          mobileMd: 425,
+          mobileSm: 360,
+          desktop: 1280,
+          desktopHD:1440,
+          desktopFH: 1920,
+        },
+      },
+    })}>
+      
+      <Grid container rowSpacing={2} columnSpacing={{mobileSm:1, mobileMd:1 ,mobileL:1, mobileXL: 1, tablet: 2, laptop: 3, desktop: 4, desktopHD:5,  desktopFH: 6}}>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px", marginLeft:"64px"}}>
+          <ButtonBase size="small" href="/houses/gryffindor"><img src="/images/grifinoria.png" className="fotos"/></ButtonBase>
+        </Grid>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px"}} >
+          <ButtonBase><img src="/images/sonserina.png" className="fotos"/></ButtonBase>
+        </Grid>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px"}}>
+          <ButtonBase><img src="/images/lufa-lufa.png" className="fotos"/></ButtonBase>
+        </Grid>
+        <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.8} sx={{marginTop:"619px"}}>
+          <ButtonBase><img src="/images/corvinal.png" className="fotos"/></ButtonBase>
+        </Grid>
+       
+      </Grid>
+    </ThemeProvider>
 
      
 

@@ -112,43 +112,12 @@ margin-top: 545.5px;
 margin-left: 418px;
 }
 
- .grifinoria{
-  position: absolute;
-  width: 330px;
-  height: 310px;
-  margin: 600px;
-  margin-left: 3.3%;
+.fotos{
+  width: 100%;
+  height: 100%;
+ 
+} 
 
-}
-
-
-.sonserina{
-  position: absolute;
-  width: 330px;
-  height: 310px;
-  margin: 600px;
-  margin-left: 26%;
-
-}
-
-.lufa-lufa{
-  position: absolute;
-  width: 330px;
-  height: 310px;
-  margin: 600px;
-  margin-left: 48.6%;
-
-}
-
-
-.corvinal{
-  position: absolute;
-  width: 330px;
-  height: 310px;
-  margin: 600px;
-  margin-left: 71.7%;
-
-}
 
 .imagemPopup{
   height: 356px;
@@ -252,75 +221,6 @@ margin-left: 418px;
   margin-left: 418px;
   }
   
-   .grifinoria{
-    position: absolute;
-    width: 330px;
-    height: 310px;
-    margin: 600px;
-    margin-left: 3.3%;
-  
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 330px;
-    height: 310px;
-    margin: 600px;
-    margin-left: 26%;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 330px;
-    height: 310px;
-    margin: 600px;
-    margin-left: 48.6%;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 330px;
-    height: 310px;
-    margin: 600px;
-    margin-left: 71.7%;
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
-  
   .imagemPopup{
     height: 356px;
     width: 256px;
@@ -340,7 +240,7 @@ margin-left: 418px;
 }
 
 
-@media(max-width:1440px){
+ @media(max-width:1440px){
   .goldBox{
     height: 29px;
     width: 100%;
@@ -424,76 +324,9 @@ margin-left: 418px;
   margin-top: 541.5px;
   margin-left: 390px;
   }
+
   
-   .grifinoria{
-    position: absolute;
-    width: 280px;
-    height: 250px;
-    margin: 600px;
-    margin-left: 3.3%;
-  
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 280px;
-    height: 250px;
-    margin: 600px;
-    margin-left: 26%;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 280px;
-    height: 250px;
-    margin: 600px;
-    margin-left: 48.6%;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 280px;
-    height: 250px;
-    margin: 600px;
-    margin-left: 71.7%;
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
-  
+ 
   .imagemPopup{
     height: 356px;
     width: 256px;
@@ -597,76 +430,7 @@ margin-left: 418px;
   margin-top: 541.5px;
   margin-left: 390px;
   }
-  
-   .grifinoria{
-    position: absolute;
-    width: 22.5%;
-    height: 27.5%;
-    margin: 600px;
-    margin-left: 3.3%;
-  
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 288px;
-    height: 272px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 22.5%;
-    height: 27.5%;
-    margin: 600px;
-    margin-left: 26%;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 22.5%;
-    height: 27.5%;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 22.5%;
-    height: 27.5%;
-    margin: 600px;
-    margin-left: 48.9%;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 22.5%;
-    height: 27.5%;
-    margin: 600px;
-    margin-left: 71.7%;
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
-  
+   
   .imagemPopup{
     height: 356px;
     width: 256px;
@@ -765,81 +529,19 @@ margin-left: 418px;
     margin-top: 458.5px;
     margin-left: 342px;
   }
-  
-   .grifinoria{
-    position: absolute;
-    width: 21%;
-    height: 223px;
-    margin: 490px;
-    margin-left: 3.3%;
-  
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 288px;
-    height: 272px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 21%;
-    height: 223px;
-    margin: 490px;
-    margin-left: 26%;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 21%;
-    height: 223px;
-    margin: 490px;
-    margin-left: 48.9%;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 21%;
-    height: 223px;
-    margin: 490px;
-    margin-left: 71.7%;
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
-  
+   
   .imagemPopup{
     height: 356px;
     width: 256px;
     border: solid 3px #A6955A
   }
+
+
+  .fotos{
+    width: 100%;
+    height: 100%;
+   margin-top: -100px;
+  } 
   
   .css-1kyjfaf .conteudo{
     color:white;
@@ -863,16 +565,16 @@ margin-left: 418px;
   
    .castelo{
     width: 100%;
-    height: 465px;
+    height: 399px;
     position: absolute;
   }
   
   .logo{
-    width: 263px;
-    height: 106px;
+    width: 387px;
+    height: 167px;
     position: absolute;
-    margin-left: 92px;
-    margin-top: 54px;
+    margin-left: 221px;
+    margin-top: 182px;
   }
   
   .retangulo{
@@ -884,8 +586,8 @@ margin-left: 418px;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
-    margin-top: 208px;
-    margin-left: 125px;
+    margin-top: 391px;
+    margin-left: 69.8%;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -897,16 +599,11 @@ margin-left: 418px;
     cursor: pointer;
   }
   
-  .retangulo:hover{
-    width: 220px;
-    height: 70px;
-  }
-  
   .vejaCasas .shield{
     position: absolute;
     width: 36px;
     height: 40px;
-    margin-top: 331px;
+    margin-top: 477px;
     margin-left: 34px;
   }
   
@@ -919,88 +616,21 @@ margin-left: 418px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-top: 340px;
+    margin-top: 478px;
     margin-left: 86px;
     color: #A6955A;
   }
   
   .vejaCasas .line{
     position: absolute;
-    width: 60%;
+    width: 80%;
     height: 0px;
-    border: 2px solid #A6955A;
-    margin-top: 353.5px;
-    margin-left: 293px;
+    border: 1px solid #A6955A;
+    margin-top: 508.5px;
+    margin-left: 85px;
   }
   
-   .grifinoria{
-    position: absolute;
-    width: 20.5%;
-    height: 203.5px;
-    margin: 371px;
-    margin-left: 3.3%;
   
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 288px;
-    height: 272px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 20.5%;
-    height: 203.5px;
-    margin: 371px;
-    margin-left: 26%;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 20.5%;
-    height: 203.5px;
-    margin: 371px;
-    margin-left: 48.9%;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 20.5%;
-    height: 203.5px;
-    margin: 371px;
-    margin-left: 71.7%;
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
   
   .imagemPopup{
     height: 356px;
@@ -1030,16 +660,16 @@ margin-left: 418px;
   
    .castelo{
     width: 100%;
-    height: 465px;
+    height: 399px;
     position: absolute;
   }
   
   .logo{
-    width: 263px;
-    height: 106px;
+    width: 387px;
+    height: 167px;
     position: absolute;
-    margin-left: 92px;
-    margin-top: 54px;
+    margin-left: 144px;
+    margin-top: 182px;
   }
   
   .retangulo{
@@ -1051,8 +681,8 @@ margin-left: 418px;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
-    margin-top: 208px;
-    margin-left: 125px;
+    margin-top: 391px;
+    margin-left: 69.8%;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -1064,17 +694,12 @@ margin-left: 418px;
     cursor: pointer;
   }
   
-  .retangulo:hover{
-    width: 220px;
-    height: 70px;
-  }
-  
   .vejaCasas .shield{
     position: absolute;
-    width: 34px;
+    width: 36px;
     height: 40px;
-    margin-top: 320px;
-    margin-left: 265px;
+    margin-top: 477px;
+    margin-left: 34px;
   }
   
   .vejaCasas .navegueCasas{
@@ -1086,86 +711,21 @@ margin-left: 418px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-top: 333px;
-    margin-left: 53px;
+    margin-top: 478px;
+    margin-left: 86px;
     color: #A6955A;
   }
   
   .vejaCasas .line{
     position: absolute;
-    width: 85%;
+    width: 80%;
     height: 0px;
     border: 1px solid #A6955A;
-    margin-top: 366px;
-    margin-left: 52px;
-
+    margin-top: 508.5px;
+    margin-left: 85px;
   }
   
-   .grifinoria{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 399px 0px 0px 100px;
   
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 288px;
-    height: 272px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 399px 0px 0px 298px;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 624px 0px 0px 68px;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin-top: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 624px 0px 0px 267px;
-
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
   
   .imagemPopup{
     height: 356px;
@@ -1195,16 +755,16 @@ margin-left: 418px;
   
    .castelo{
     width: 100%;
-    height: 465px;
+    height: 399px;
     position: absolute;
   }
   
   .logo{
-    width: 263px;
-    height: 106px;
+    width: 346px;
+    height: 159px;
     position: absolute;
-    margin-left: 92px;
-    margin-top: 54px;
+    margin-left: 81px;
+    margin-top: 182px;
   }
   
   .retangulo{
@@ -1216,8 +776,8 @@ margin-left: 418px;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 10px;
-    margin-top: 208px;
-    margin-left: 125px;
+    margin-top: 391px;
+    margin-left: 60.8%;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -1229,17 +789,12 @@ margin-left: 418px;
     cursor: pointer;
   }
   
-  .retangulo:hover{
-    width: 220px;
-    height: 70px;
-  }
-  
   .vejaCasas .shield{
     position: absolute;
-    width: 34px;
+    width: 36px;
     height: 40px;
-    margin-top: 320px;
-    margin-left: 265px;
+    margin-top: 477px;
+    margin-left: 34px;
   }
   
   .vejaCasas .navegueCasas{
@@ -1251,86 +806,21 @@ margin-left: 418px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-top: 333px;
-    margin-left: 53px;
+    margin-top: 478px;
+    margin-left: 86px;
     color: #A6955A;
   }
   
   .vejaCasas .line{
     position: absolute;
-    width: 85%;
+    width: 80%;
     height: 0px;
     border: 1px solid #A6955A;
-    margin-top: 366px;
-    margin-left: 52px;
-
+    margin-top: 508.5px;
+    margin-left: 85px;
   }
   
-   .grifinoria{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 399px 0px 0px 43px;
   
-  }
-  
-  .grifinoria:hover{
-    position: absolute;
-    width: 288px;
-    height: 272px;
-    margin: 600px;
-    margin-left: 60px;
-  
-  }
-  
-  .sonserina{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 399px 0px 0px 242px;
-  
-  }
-  .sonserina:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 500px;
-  
-  }
-  
-  .lufa-lufa{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 624px 0px 0px 11px;
-  
-  }
-  .lufa-lufa:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin-top: 600px;
-    margin-left: 950px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 192px;
-    height: 204px;
-    margin: 624px 0px 0px 211px;
-
-  
-  }
-  .corvinal:hover{
-    position: absolute;
-    width: 350px;
-    height: 320px;
-    margin: 600px;
-    margin-left: 1400px;
-  
-  }  
   
   .imagemPopup{
     height: 356px;
@@ -1347,8 +837,7 @@ margin-left: 418px;
   .css-1kyjfaf .lista{
     margin-left: 10px;
   }
-
-}
+  }
 
 @media(max-width:425px){
   .goldBox{
@@ -1428,41 +917,7 @@ margin-left: 418px;
 
   }
   
-   .grifinoria{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 399px 0px 0px 43px;
-  
-  }
-  
-  
-  .sonserina{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 399px 0px 0px 209px;
-  
-  }
- 
- 
-  .lufa-lufa{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 585px 0px 0px 11px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 585px 0px 0px 177px;
-
-  
-  }
-  
+   
   .imagemPopup{
     height: 356px;
     width: 256px;
@@ -1558,41 +1013,6 @@ margin-left: 418px;
 
   }
   
-   .grifinoria{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 399px 0px 0px 26px;
-  
-  }
-  
-  
-  .sonserina{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 399px 0px 0px 184px;
-  
-  }
- 
- 
-  .lufa-lufa{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 585px 0px 0px -7px;
-  
-  }
-  
-  .corvinal{
-    position: absolute;
-    width: 155px;
-    height: 164px;
-    margin: 585px 0px 0px 152px;
-
-  
-  }
-  
   .imagemPopup{
     height: 356px;
     width: 256px;
@@ -1608,7 +1028,7 @@ margin-left: 418px;
   .css-1kyjfaf .lista{
     margin-left: 10px;
   }
-}
+} 
 
 
 
