@@ -1,0 +1,1618 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #031C29;
+  }
+}
+
+ .goldBox{
+  height: 29px;
+  width: 100%;
+  background-color: #A6955A;
+  
+}
+
+
+ .castelo{
+  width: 100%;
+  height: 730px;
+  position: absolute;
+}
+
+.logo{
+  width: 511px;
+  height: 198px;
+  position: absolute;
+  margin-left: 109px;
+  margin-top: 89px;
+}
+
+.retangulo{
+  box-sizing: border-box;
+  position: absolute;
+  width: 210px;
+  height: 59px;
+  background: #A6955A;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  margin-top: 334px;
+  margin-left: 208px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 8px;
+  color: #031C29;
+  cursor: pointer;
+}
+
+.retangulo:hover{
+  width: 220px;
+  height: 70px;
+}
+
+.vejaCasas .shield{
+position: absolute;
+width: 72px;
+height: 84px;
+margin-top: 504px;
+margin-left: 58px ;
+}
+
+.vejaCasas .navegueCasas{
+  position: absolute;
+width: 242px;
+height: 56px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+margin-top: 529px;
+margin-left: 140px;
+
+color: #A6955A;
+}
+
+.vejaCasas .line{
+position: absolute;
+width: 70%;
+height: 0px;
+
+border: 3px solid #A6955A;
+
+margin-top: 545.5px;
+margin-left: 418px;
+}
+
+ .grifinoria{
+  position: absolute;
+  width: 330px;
+  height: 310px;
+  margin: 600px;
+  margin-left: 3.3%;
+
+}
+
+
+.sonserina{
+  position: absolute;
+  width: 330px;
+  height: 310px;
+  margin: 600px;
+  margin-left: 26%;
+
+}
+
+.lufa-lufa{
+  position: absolute;
+  width: 330px;
+  height: 310px;
+  margin: 600px;
+  margin-left: 48.6%;
+
+}
+
+
+.corvinal{
+  position: absolute;
+  width: 330px;
+  height: 310px;
+  margin: 600px;
+  margin-left: 71.7%;
+
+}
+
+.imagemPopup{
+  height: 356px;
+  width: 256px;
+  border: solid 3px #A6955A
+}
+
+.css-1kyjfaf .conteudo{
+  color:white;
+  line-height: 30px;
+  
+}
+
+.css-1kyjfaf .lista{
+  margin-left: 10px;
+  
+}
+
+@media(max-width:1650px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 730px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 511px;
+    height: 198px;
+    position: absolute;
+    margin-left: 109px;
+    margin-top: 89px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 210px;
+    height: 59px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 334px;
+    margin-left: 208px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 8px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+  position: absolute;
+  width: 72px;
+  height: 84px;
+  margin-top: 504px;
+  margin-left: 58px ;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+  width: 242px;
+  height: 56px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 529px;
+  margin-left: 140px;
+  
+  color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+  position: absolute;
+  width: 70%;
+  height: 0px;
+  
+  border: 3px solid #A6955A;
+  
+  margin-top: 545.5px;
+  margin-left: 418px;
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 330px;
+    height: 310px;
+    margin: 600px;
+    margin-left: 3.3%;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 330px;
+    height: 310px;
+    margin: 600px;
+    margin-left: 26%;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 330px;
+    height: 310px;
+    margin: 600px;
+    margin-left: 48.6%;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 330px;
+    height: 310px;
+    margin: 600px;
+    margin-left: 71.7%;
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+    
+  }
+}
+
+
+@media(max-width:1440px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 730px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 437px;
+    height: 176px;
+    position: absolute;
+    margin-left: 109px;
+    margin-top: 89px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 210px;
+    height: 59px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 334px;
+    margin-left: 208px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 8px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+  position: absolute;
+  width: 72px;
+  height: 84px;
+  margin-top: 504px;
+  margin-left: 58px ;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+  width: 242px;
+  height: 56px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 529px;
+  margin-left: 140px;
+  
+  color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+  position: absolute;
+  width: 68%;
+  height: 0px;
+  
+  border: 3px solid #A6955A;
+  
+  margin-top: 541.5px;
+  margin-left: 390px;
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    margin: 600px;
+    margin-left: 3.3%;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    margin: 600px;
+    margin-left: 26%;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    margin: 600px;
+    margin-left: 48.6%;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    margin: 600px;
+    margin-left: 71.7%;
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+    
+  }
+
+}
+
+@media(max-width:1280px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 730px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 437px;
+    height: 176px;
+    position: absolute;
+    margin-left: 109px;
+    margin-top: 89px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 210px;
+    height: 59px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 334px;
+    margin-left: 208px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 8px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+  position: absolute;
+  width: 72px;
+  height: 84px;
+  margin-top: 504px;
+  margin-left: 58px ;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+  width: 242px;
+  height: 56px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 529px;
+  margin-left: 140px;
+  
+  color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+  position: absolute;
+  width: 66%;
+  height: 0px;
+  
+  border: 3px solid #A6955A;
+  
+  margin-top: 541.5px;
+  margin-left: 390px;
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 22.5%;
+    height: 27.5%;
+    margin: 600px;
+    margin-left: 3.3%;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 288px;
+    height: 272px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 22.5%;
+    height: 27.5%;
+    margin: 600px;
+    margin-left: 26%;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 22.5%;
+    height: 27.5%;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 22.5%;
+    height: 27.5%;
+    margin: 600px;
+    margin-left: 48.9%;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 22.5%;
+    height: 27.5%;
+    margin: 600px;
+    margin-left: 71.7%;
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+    
+  }
+}
+
+@media(max-width:1024px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 324px;
+    height: 136px;
+    position: absolute;
+    margin-left: 109px;
+    margin-top: 89px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 182px;
+    height: 52px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 278px;
+    margin-left: 178px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+    position: absolute;
+    width: 56px;
+    height: 63px;
+    margin-top: 418px;
+    margin-left: 58px;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+    width: 242px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 444px;
+    margin-left: 128px;
+    color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+    position: absolute;
+    width: 60%;
+    height: 0px;
+    border: 2px solid #A6955A;
+    margin-top: 458.5px;
+    margin-left: 342px;
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 21%;
+    height: 223px;
+    margin: 490px;
+    margin-left: 3.3%;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 288px;
+    height: 272px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 21%;
+    height: 223px;
+    margin: 490px;
+    margin-left: 26%;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 21%;
+    height: 223px;
+    margin: 490px;
+    margin-left: 48.9%;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 21%;
+    height: 223px;
+    margin: 490px;
+    margin-left: 71.7%;
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+  }
+}
+
+@media(max-width:800px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 465px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 263px;
+    height: 106px;
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 54px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 182px;
+    height: 52px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 208px;
+    margin-left: 125px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+    position: absolute;
+    width: 36px;
+    height: 40px;
+    margin-top: 331px;
+    margin-left: 34px;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+    width: 242px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 340px;
+    margin-left: 86px;
+    color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+    position: absolute;
+    width: 60%;
+    height: 0px;
+    border: 2px solid #A6955A;
+    margin-top: 353.5px;
+    margin-left: 293px;
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 20.5%;
+    height: 203.5px;
+    margin: 371px;
+    margin-left: 3.3%;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 288px;
+    height: 272px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 20.5%;
+    height: 203.5px;
+    margin: 371px;
+    margin-left: 26%;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 20.5%;
+    height: 203.5px;
+    margin: 371px;
+    margin-left: 48.9%;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 20.5%;
+    height: 203.5px;
+    margin: 371px;
+    margin-left: 71.7%;
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width:640px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 465px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 263px;
+    height: 106px;
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 54px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 182px;
+    height: 52px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 208px;
+    margin-left: 125px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 265px;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+    width: 242px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 333px;
+    margin-left: 53px;
+    color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+    position: absolute;
+    width: 85%;
+    height: 0px;
+    border: 1px solid #A6955A;
+    margin-top: 366px;
+    margin-left: 52px;
+
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 399px 0px 0px 100px;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 288px;
+    height: 272px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 399px 0px 0px 298px;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 624px 0px 0px 68px;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin-top: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 624px 0px 0px 267px;
+
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+  }
+  }
+
+@media(max-width:480px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 465px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 263px;
+    height: 106px;
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 54px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 182px;
+    height: 52px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 208px;
+    margin-left: 125px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  .retangulo:hover{
+    width: 220px;
+    height: 70px;
+  }
+  
+  .vejaCasas .shield{
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 265px;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+    width: 242px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 333px;
+    margin-left: 53px;
+    color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+    position: absolute;
+    width: 85%;
+    height: 0px;
+    border: 1px solid #A6955A;
+    margin-top: 366px;
+    margin-left: 52px;
+
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 399px 0px 0px 43px;
+  
+  }
+  
+  .grifinoria:hover{
+    position: absolute;
+    width: 288px;
+    height: 272px;
+    margin: 600px;
+    margin-left: 60px;
+  
+  }
+  
+  .sonserina{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 399px 0px 0px 242px;
+  
+  }
+  .sonserina:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 500px;
+  
+  }
+  
+  .lufa-lufa{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 624px 0px 0px 11px;
+  
+  }
+  .lufa-lufa:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin-top: 600px;
+    margin-left: 950px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 192px;
+    height: 204px;
+    margin: 624px 0px 0px 211px;
+
+  
+  }
+  .corvinal:hover{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    margin: 600px;
+    margin-left: 1400px;
+  
+  }  
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+  }
+
+}
+
+@media(max-width:425px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 465px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 245px;
+    height: 125px;
+    position: absolute;
+    margin-left: 99px;
+    margin-top: 180px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 35px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 13px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  
+  .vejaCasas .shield{
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 265px;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+    width: 242px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 333px;
+    margin-left: 53px;
+    color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+    position: absolute;
+    width: 85%;
+    height: 0px;
+    border: 1px solid #A6955A;
+    margin-top: 366px;
+    margin-left: 52px;
+
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 399px 0px 0px 43px;
+  
+  }
+  
+  
+  .sonserina{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 399px 0px 0px 209px;
+  
+  }
+ 
+ 
+  .lufa-lufa{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 585px 0px 0px 11px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 585px 0px 0px 177px;
+
+  
+  }
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+  }
+}
+
+@media(max-width:360px){
+  .goldBox{
+    height: 29px;
+    width: 100%;
+    background-color: #A6955A;
+    
+  }
+  
+  
+   .castelo{
+    width: 100%;
+    height: 465px;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 245px;
+    height: 125px;
+    position: absolute;
+    margin-left: 99px;
+    margin-top: 180px;
+  }
+  
+  .retangulo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 35px;
+    background: #A6955A;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 13px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px;
+    color: #031C29;
+    cursor: pointer;
+  }
+  
+  
+  .vejaCasas .shield{
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 265px;
+  }
+  
+  .vejaCasas .navegueCasas{
+    position: absolute;
+    width: 242px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 333px;
+    margin-left: 53px;
+    color: #A6955A;
+  }
+  
+  .vejaCasas .line{
+    position: absolute;
+    width: 85%;
+    height: 0px;
+    border: 1px solid #A6955A;
+    margin-top: 366px;
+    margin-left: 52px;
+
+  }
+  
+   .grifinoria{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 399px 0px 0px 26px;
+  
+  }
+  
+  
+  .sonserina{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 399px 0px 0px 184px;
+  
+  }
+ 
+ 
+  .lufa-lufa{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 585px 0px 0px -7px;
+  
+  }
+  
+  .corvinal{
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    margin: 585px 0px 0px 152px;
+
+  
+  }
+  
+  .imagemPopup{
+    height: 356px;
+    width: 256px;
+    border: solid 3px #A6955A
+  }
+  
+  .css-1kyjfaf .conteudo{
+    color:white;
+    line-height: 30px;
+    
+  }
+  
+  .css-1kyjfaf .lista{
+    margin-left: 10px;
+  }
+}
+
+
+
+ 
+
+
+
