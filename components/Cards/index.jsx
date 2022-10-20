@@ -11,7 +11,7 @@ export default function PersonagemCard({personagem}) {
 
   
   return (
-    <Card sx={{ maxWidth: 180}} >
+    <Card sx={{ maxWidth: 180, background:"transparent"}} >
       <CardActionArea >
         <CardMedia
           component="img"
@@ -20,7 +20,7 @@ export default function PersonagemCard({personagem}) {
           alt={personagem.name}
           />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography sx={{color:"#A6955A"}} gutterBottom variant="h4" component="div">
             {personagem.name}
           </Typography>
         </CardContent>  
