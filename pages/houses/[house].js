@@ -5,7 +5,6 @@ import Popup from '../../components/Popup';
 import UrlHouse from "../../components/urlHouse/house";
 import Cards from "../../components/Cards"
 import { useEffect,useState } from "react";
-import axios from "axios";
 import style from '../../styles/style.module.css'
 import { useRouter } from "next/router";
 
@@ -20,7 +19,7 @@ export default function Gryffindor() {
 
   useEffect(()=>{
     async function fetchData(){
-        const response = await fetch(`https://hp-api.herokuapp.com/api/characters/house/${house}`)
+        const response = await fetch(UrlHouse(house))
         const data = await response.json()
         setPersonagens(data)
     }
