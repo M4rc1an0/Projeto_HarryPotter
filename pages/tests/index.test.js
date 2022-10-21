@@ -3,8 +3,7 @@ import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 import Navbar from "../../components/Navbar";
 import Fundo from "../../components/Fundo"
-
-
+import Cards from "../../components/Cards"
 
 
 describe('teste de componente',()=>{
@@ -56,7 +55,18 @@ describe('teste do componente Fundo',()=>{
         expect(button).toBeInTheDocument
     })
 })
+
+describe('teste do componente Fundo',()=>{
+    test('testando se o botão de todos os persongens é renderizado', ()=>{
+        render(<Fundo/>)
+
+        const button = screen.getByTestId('btnAllChars')
+
+        expect(button).toBeInTheDocument
+    })
+})
  
+
 
 
 

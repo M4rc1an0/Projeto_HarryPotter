@@ -11,7 +11,7 @@ export default function PersonagemCard({personagem}) {
 
   
   return (
-    <Card sx={{ maxWidth: 180, background:"transparent"}} >
+    <Card sx={{ maxWidth: 180, background:"transparent"}} data-testid="cards">
       <CardActionArea >
         <CardMedia
           component="img"

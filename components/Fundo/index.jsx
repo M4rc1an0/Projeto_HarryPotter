@@ -6,7 +6,6 @@ import {
   ButtonBase,
   Box,
 } from "@mui/material";
-import { minWidth } from "@mui/system";
 import Link from "next/link";
 
 export default function Fundo() {
@@ -23,7 +22,7 @@ export default function Fundo() {
         <img src="/images/logo.png" className="logo" />
       </div>
 
-      <button className="retangulo">
+      <button className="retangulo" data-testid="btnAllChars">
         <a href="personAll">VEJA TODOS PERSONAGENS</a>
       </button>
 
@@ -78,7 +77,7 @@ export default function Fundo() {
             desktopFH={2.5}
             sx={{ marginLeft: "64px" }}
           >
-            <ButtonBase>
+            <ButtonBase data-testid="btnGryffindor">
               <Link href="/houses/gryffindor">
                 <img src="/images/grifinoria.png" className="fotos" />
               </Link>
