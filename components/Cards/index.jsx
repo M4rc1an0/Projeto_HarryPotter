@@ -18,9 +18,10 @@ export default function PersonagemCard({personagem}) {
           height="227"
           image= {personagem.image ? personagem.image : '/images/semfoto.png' } 
           alt={personagem.name}
+          sx={{border:"3px solid #A6955A"}}
           />
         <CardContent>
-          <Typography sx={{color:"#A6955A"}} gutterBottom variant="h4" component="div">
+          <Typography sx={{color:"#A6955A", textAlign:"center"}} gutterBottom variant="h4" component="div">
             {personagem.name}
           </Typography>
         </CardContent>  

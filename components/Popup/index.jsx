@@ -36,18 +36,18 @@ export default function AlertDialog({personagem,opened,setValor}) {
 
              <span>Especie:</span> <span className='conteudo'>{personagem && personagem.species}</span><br/>
 
-              <span>Data de nasc:</span> <span className='conteudo'>{personagem && personagem.dateOfBirth}</span><br/>
+              <span>Data de nasc:</span> <span className='conteudo'>{personagem && personagem.dateOfBirth ? personagem.dateOfBirth : 'Desconhecido'}</span><br/>
 
               <span>Genero:</span> <span className='conteudo'>{personagem && personagem.gender}</span><br/>
 
-              <span>Patrono:</span> <span className='conteudo'>{personagem && personagem.patronus ? personagem.patronus : 'não conhecido'}</span><br/>
+              <span>Patrono:</span> <span className='conteudo'>{personagem && personagem.patronus ? personagem.patronus : 'Desconhecido'}</span><br/>
 
               <strong>Varinha: </strong><br/>
-                <span className='lista'>-Madeira:</span> <span className='conteudo'>{personagem && personagem.wand ? personagem.wand.wood : false}</span> <br/>
-                <span className='lista'>-Nucleo:</span> <span className='conteudo'>{personagem && personagem.wand ? personagem.wand.core : false}</span> <br/>
-                <span className='lista'>-Tamanho:<span className='conteudo'>{personagem && personagem.wand ? personagem.wand.length : false }</span></span> <br/>
+                <span className='lista'>-Madeira:</span> <span className='conteudo'>{personagem && personagem.wand.wood ? personagem.wand.wood : 'Desconhecido'}</span> <br/>
+                <span className='lista'>-Nucleo:</span> <span className='conteudo'>{personagem && personagem.wand.core ? personagem.wand.core : 'Desconhecido'}</span> <br/>
+                <span className='lista'>-Tamanho:<span className='conteudo'>{personagem && personagem.wand.lenght ? personagem.wand.length : 'Desconhecido' }</span></span> <br/>
               
-              <span>Ancestralidade:</span> <span className='conteudo'>{personagem && personagem.ancestry}</span><br/>
+              <span>Ancestralidade:</span> <span className='conteudo'>{personagem && personagem.ancestry ? personagem.ancestry : 'Desconhecido'}</span><br/>
               
               <span>Ator:</span> <span className='conteudo'>{personagem && personagem.actor}</span>
             </Box>
