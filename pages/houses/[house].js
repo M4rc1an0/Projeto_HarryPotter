@@ -2,24 +2,30 @@ import Navbar from "../../components/Navbar";
 import { Container } from "@mui/system";
 import { Grid } from "@mui/material";
 import Popup from '../../components/Popup';
-import UrlHouse from "../../components/urlHouse/slytherin";
+import UrlHouse from "../../components/urlHouse/house";
 import Cards from "../../components/Cards"
 import { useEffect,useState } from "react";
 import axios from "axios";
 import style from '../../styles/style.module.css'
+import { useRouter } from "next/router";
+
 
 export default function Gryffindor() {
 
   const [personagens, setPersonagens] = useState([])
   const [open, setOpen] = useState(false)
-  
+  const router = useRouter()
+  const {house} = router.query
   
 
   useEffect(()=>{
-    axios.get(UrlHouse())
-    .then((res)=> setPersonagens(res.data))
-    .catch((err)=>console.log(err))
-},[])
+    async function fetchData(){
+        const response = await fetch(`https://hp-api.herokuapp.com/api/characters/house/${house}`)
+        const data = await response.json()
+        setPersonagens(data)
+    }
+    fetchData()
+},[house])
 
 const [person, setPerson] = useState(false)
 
@@ -48,3 +54,4 @@ const person1 = (personagem)=>{
   );
 
 }
+

@@ -1,6 +1,29 @@
-import { Grid, Button, ThemeProvider, createTheme, Link, ButtonBase  } from "@mui/material"
+import { Grid, Button, ThemeProvider, createTheme,ButtonBase,Box  } from "@mui/material"
 import { minWidth } from "@mui/system"
+import Link from "next/link"
+import Image from "next/image"
 
+const casas = [{
+  nome:"Grifinoria",
+  imagem:"/images/grifinoria.png",
+  path: "gryffindor"
+  },
+  {
+    nome:"Sonserina",
+  imagem:"/images/sonserina.png",
+  path: "slytherin"
+  },
+  {
+  nome:"lufa-lufa",
+  imagem:"/images/lufa-lufa.png",
+  path: "hufflepuff"
+  },
+  {
+  nome:"Corvinal",
+  imagem:"/images/corvinal.png",
+  path: "ravenclaw"
+  }
+]
 
 export default function Fundo() {
 
@@ -23,6 +46,7 @@ export default function Fundo() {
         <div className="line" />
       </div>
 
+     
        
   
     <ThemeProvider
@@ -44,7 +68,7 @@ export default function Fundo() {
       
       <Grid container rowSpacing={2} columnSpacing={{mobileSm:1, mobileMd:1 ,mobileL:1, mobileXL: 1, tablet: 2, laptop: 3, desktop: 4, desktopHD:5,  desktopFH: 6}}>
         <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.5} sx={{marginLeft:"64px"}}>
-          <ButtonBase data-testid='btnGryffindor' size="small" href="/houses/gryffindor"><img src="/images/grifinoria.png" className="fotos"/></ButtonBase>
+          <ButtonBase><Link href='/houses/gryffindor'><img src="/images/grifinoria.png" className="fotos"/></Link></ButtonBase>
         </Grid>
         <Grid item mobileSm={2.3} mobileMd={2.3} mobileL={2.5} mobileXL={2.5} tablet={2.6} laptop={2.8} desktop={2.8} desktopHD={2.8} desktopFH={2.5}>
           <ButtonBase data-testid='btnSlytherin' href="/houses/slytherin"><img src="/images/sonserina.png" className="fotos"/></ButtonBase>
@@ -57,6 +81,7 @@ export default function Fundo() {
         </Grid>
        
       </Grid>
+
     </ThemeProvider>
 
      
