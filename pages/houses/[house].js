@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 import { Container } from "@mui/system";
-import { Grid } from "@mui/material";
+import { Grid,Box } from "@mui/material";
 import Popup from '../../components/Popup';
 import UrlHouse from "../../components/urlHouse";
 import Cards from "../../components/Cards"
@@ -8,6 +8,8 @@ import { useEffect,useState } from "react";
 import style from '../../styles/style.module.css'
 import { useRouter } from "next/router";
 import axios from "axios";
+
+
 
 export default function Gryffindor() {
 
@@ -33,9 +35,20 @@ const person1 = (personagem)=>{
 }
   return (
     <div className={style.fundoJornal}>
-      
-    
-    <Navbar/>
+        <Navbar/>
+        <img src="/images/hogwartsShield.png" alt="shield" style={{paddingBottom:"10px", marginLeft:"60px"}}/>
+        <Box 
+            sx={{fontSize:"24px",
+            fontFamily:"Arial",
+            position:"absolute",
+            textTransform:"uppercase",
+            marginLeft:"140px",
+            marginTop:"-70px",
+            color:"#A6955A"}}>{house}
+        </Box>
+        <img src="/images/line.png" alt="linha" className="line2"/>
+        
+
             <Container maxWidth="xl">
                 <Grid container spacing={5}>
                     {personagens.map((personagem,key) =>(

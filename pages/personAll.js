@@ -34,6 +34,17 @@ export default function PersonAll() {
     return (
         <div className={style.fundoJornal} >
             <Navbar/>
+            <img src="/images/hogwartsShield.png" alt="shield" style={{paddingBottom:"10px", marginLeft:"60px"}}/>
+        <Box 
+            sx={{fontSize:"21px",
+            fontFamily:"Arial",
+            position:"absolute",
+            textTransform:"uppercase",
+            marginLeft:"140px",
+            marginTop:"-68px",
+            color:"#A6955A"}}>Personagens
+        </Box>
+        <img src="/images/line.png" alt="linha" className="line2"/>
             <Container maxWidth="xl">
                 <Grid container spacing={5}>
                     {personagens.map((personagem,key) =>(
