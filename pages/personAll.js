@@ -32,12 +32,12 @@ export default function PersonAll() {
 
    
     return (
-        <div className={style.fundoJornal}>
+        <div className={style.fundoJornal} >
             <Navbar/>
             <Container maxWidth="xl">
                 <Grid container spacing={5}>
                     {personagens.map((personagem,key) =>(
-                     <Grid item  sm={4} md={3} lg={2.2} key={key} onClick={() => person1(personagem) }>
+                     <Grid item  sm={4} md={3} lg={2.2} key={key} onClick={() => person1(personagem)}>
                         <Cards personagem={personagem}/> 
                         
                      </Grid>
@@ -46,6 +46,7 @@ export default function PersonAll() {
                 
             </Container>
             <Popup personagem={person} opened={open} setValor={setOpen}/>
+            
             
         </div>
       
