@@ -1,9 +1,12 @@
-import {Grid, Button,
-  ThemeProvider, createTheme,
-  ButtonBase, Box,} from "@mui/material";
+import {
+  Grid,
+  Button,
+  ThemeProvider,
+  createTheme,
+  ButtonBase,
+  Box,
+} from "@mui/material";
 import Link from "next/link";
-
-
 
 export default function Fundo() {
   return (
@@ -19,7 +22,7 @@ export default function Fundo() {
         <img src="/images/logo.png" className="logo" />
       </div>
 
-      <button  className="retangulo" data-testid="btnAllChars">
+      <button className="retangulo" data-testid="btnAllChars">
         <a href="personAll">VEJA TODOS PERSONAGENS</a>
       </button>
 
