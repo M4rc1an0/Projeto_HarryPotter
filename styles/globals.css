@@ -693,7 +693,9 @@ margin-left: 418px;
     margin-left: 85px;
   }
   
-  
+ .btnHome{
+    margin-left: 120px;
+  }
   
   .imagemPopup{
     height: 356px;
@@ -893,7 +895,11 @@ margin-left: 418px;
     height: 100%;
     margin-top: 450px;
    
-  } 
+  }
+
+  .btnHome{
+    margin-left: 60px;
+  }
   
   .imagemPopup{
     height: 356px;

@@ -14,7 +14,7 @@ export default function Navbar() {
       <Grid>
         <AppBar position="static" sx={{backgroundColor:"#A6955A",textAlign:"center"}}>
           <Toolbar>
-            <Button data-testid='teste' sx={{marginLeft:"43%"}} href="/"><Box component="img" src="/images/smallLogo.png" alt='smalllogo'/></Button>
+            <Button data-testid='teste' className='btnHome' sx={{marginLeft:"43%"}} href="/"><Box component="img" src="/images/smallLogo.png" alt='smalllogo'/></Button>
           </Toolbar>
         </AppBar>
       </Grid>
