@@ -17,7 +17,7 @@ export default function Navbar() {
             <Button
               data-testid="teste"
               className="btnHome"
-              sx={{ marginLeft: "43%" }}
+              sx={{ marginLeft: "40%" }}
               href="/"
             >
               <Box
