@@ -1,4 +1,4 @@
-import {Grid,Button,ThemeProvider,createTheme,ButtonBase,Box} from "@mui/material";
+import {Grid,ThemeProvider,createTheme,ButtonBase} from "@mui/material";
 import Link from "next/link";
 
 export default function Inicio() {
@@ -25,6 +25,7 @@ export default function Inicio() {
         <div className="line" />
       </div>
 
+      
       <ThemeProvider
         theme={createTheme({
           breakpoints: {
@@ -87,6 +88,7 @@ export default function Inicio() {
             desktop={2.8}
             desktopHD={2.8}
             desktopFH={2.5}
+           
           >
             <ButtonBase data-testid="btnSlytherin">
               <Link href="/houses/slytherin">
@@ -105,6 +107,7 @@ export default function Inicio() {
             desktop={2.8}
             desktopHD={2.8}
             desktopFH={2.5}
+            
           >
             <ButtonBase data-testid="btnHufflepuff">
               <Link href="/houses/hufflepuff">
@@ -123,6 +126,7 @@ export default function Inicio() {
             desktop={2.8}
             desktopHD={2.8}
             desktopFH={2.5}
+            
           >
             <ButtonBase data-testid="btnRavenclaw">
               <Link href="/houses/ravenclaw">
@@ -132,6 +136,7 @@ export default function Inicio() {
           </Grid>
         </Grid>
       </ThemeProvider>
+  
     </div>
   );
 }

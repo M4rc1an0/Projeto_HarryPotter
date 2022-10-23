@@ -50,7 +50,7 @@ export default function Allchars() {
       </Box>
       <img src="/images/line.png" alt="linha" className="line2" />
       <Container maxWidth="xl">
-        <Grid container spacing={5}>
+        <Grid container spacing={5} sx={{ display: "flex", justifyContent: "center" }}>
           {personagens.map((personagem, key) => (
             <Grid
               item

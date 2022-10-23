@@ -7,7 +7,7 @@ import { CardActionArea } from "@mui/material";
 
 export default function PersonagemCard({ personagem }) {
   return (
-    <Card sx={{ maxWidth: 180, background: "transparent" }} data-testid="cards">
+    <Card sx={{ maxWidth: 155, background: "transparent" }} data-testid="cards">
       <CardActionArea>
         <CardMedia
           component="img"

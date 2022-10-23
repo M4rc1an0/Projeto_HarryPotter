@@ -51,14 +51,14 @@ export default function Gryffindor() {
       <img src="/images/line.png" alt="linha" className="line2" />
 
       <Container maxWidth="xl">
-        <Grid container spacing={5}>
+        <Grid container spacing={5} sx={{ display: "flex", justifyContent: "center" }}>
           {personagens.map((personagem, key) => (
             <Grid
               item
               sm={4}
               md={3}
               lg={2.2}
-              key={key + 1}
+              key={key}
               onClick={() => person1(personagem)}
             >
               <Cards personagem={personagem} />

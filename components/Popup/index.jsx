@@ -103,9 +103,7 @@ export default function AlertDialog({ personagem, opened, setValor }) {
               <span className="lista">
                 -Tamanho:
                 <span className="conteudo">
-                  {personagem && personagem.wand.lenght
-                    ? personagem.wand.length
-                    : "Desconhecido"}
+                  {personagem && personagem.wand.length ? personagem.wand.length : "Desconhecido"}
                 </span>
               </span>{" "}
               <br />

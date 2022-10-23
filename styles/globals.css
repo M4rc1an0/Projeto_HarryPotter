@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #031C29;
 }
 
 a {
@@ -16,17 +19,10 @@ a {
   
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    width: 100%;
-    height: 100%;
-    background-color: #031C29;
-  }
+.centralizacao{
+  display: flex;
+  justify-content: center;
 }
-
 
  .goldBox{
   height: 29px;
@@ -730,6 +726,7 @@ margin-left: 418px;
     border: solid 3px #A6955A
   }
   
+  
   .css-1kyjfaf .conteudo{
     color:white;
     line-height: 30px;
@@ -825,6 +822,7 @@ margin-left: 418px;
   .css-1kyjfaf .lista{
     margin-left: 10px;
   }
+
 }  
 
 
