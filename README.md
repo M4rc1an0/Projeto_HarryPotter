@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PROJETO HARRY POTTER
+[![NPM](https://img.shields.io/apm/l/react)](https://github.com/vrrMarques/Projeto_HarryPotter/blob/main/LICENSE)
 
-## Getting Started
+# SOBRE O PROJETO
+O projeto harry potter é um projeto Front-End desenvolvido em NEXT.js.
+O projeto foi um desafio proposto com proposito para testar minhas habilidades de desenvolvimento de uma interface funcional.
 
-First, run the development server:
+A aplicação consiste em criar uma pagina do filme Harry Potter, onde é possível navegar entre 6 paginas:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<li>Pagina inicial</li>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<li>Pagina com todos os personagens</li>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<li>Pagina da casa Gryffindor</li>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<li>Pagina da casa Slytherin</li>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<li>Pagina da casa Hufflepuff</li>
 
-## Learn More
+<li>Pagina da casa Ravenclaw</li>
+<br/>
+<i>A pagina com todos personagens exibe Cards com todos os personagens listados na API e as paginas com as casas exibe Cards somente os personagens das respectivas casas.
 
-To learn more about Next.js, take a look at the following resources:
+Ambos os modelos são equipados com modais nos cards dos personagens que exibe as informações únicas do personagem clicado.</i>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<strong>Em qualquer uma das paginas que exiba personagens se o logo do harry potter for clicado a aplicação retornará a pagina inicial.</strong>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O projeto foi feito com base na API https://hp-api.herokuapp.com/
 
-## Deploy on Vercel
+<strong>A aplicação pode ser executada em qualquer resolução desktop ou em mobile nas resoluções 800px, 640px, 480px 425px e na resolução minima de 360px.</strong>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<i>O projeto também conta com testes unitarios simples de renderização de componentes utilizados.</i>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Tecnologias utilizadas
+
+<li>NextJS</li>
+<li>ReactJS</li>
+<li>CSS</li>
+<li>Axios</li>
+<li>Materials UI</li>
+<li>Jest</li>
+
+# Como executar o projeto
+ ### pré-requisitos: Node 16.16 ou superior
+ 
+ ```bash
+ #clonar repositório 
+ https://github.com/vrrMarques/Projeto_HarryPotter
+ 
+ #entrar na pasta do projeto
+ cd Projeto_HarryPotter
+ 
+ #executar o projeto
+ 1 - npm install
+ 2 - npm run dev
+ ```
+ ## Fotos do Projeto
+
+<div align="center">
+  <p>Home</p>
+<img src="https://user-images.githubusercontent.com/98443049/197367438-9fbdde57-10e5-4580-81c1-a0cf21db30d1.PNG" width="700px" />
+</div>
+<br/>
+
+<div align="center">
+  <p>Todos os personagens</p>
+<img src="https://user-images.githubusercontent.com/98443049/197367440-4dfc13ae-a1eb-4eea-9f8d-6aab48a9de8f.PNG" width="700px" />
+</div>
+<br/>
+
+<div align="center">
+  <p>Casa específica</p>
+<img src="https://user-images.githubusercontent.com/98443049/197367437-cff49ae7-3d3d-438a-82f8-dbd6341dd8b9.PNG" width="700px" />
+</div>
+<br/>
+
+<div align="center">
+  <p>Modal</p>
+<img src="https://user-images.githubusercontent.com/98443049/197367439-dad520aa-a70b-40ec-a868-0466670cc3f4.PNG" width="700px" />
+</div>
+ <br/>
+ 
+ # autor
+ ### vrrMarques
+ 
+ 
+ 
