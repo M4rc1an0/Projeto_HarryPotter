@@ -1,14 +1,7 @@
-import {
-  Grid,
-  Button,
-  ThemeProvider,
-  createTheme,
-  ButtonBase,
-  Box,
-} from "@mui/material";
+import {Grid,Button,ThemeProvider,createTheme,ButtonBase,Box} from "@mui/material";
 import Link from "next/link";
 
-export default function Fundo() {
+export default function Inicio() {
   return (
     <div>
       <div className="goldBox"></div>
@@ -23,7 +16,7 @@ export default function Fundo() {
       </div>
 
       <button className="retangulo" data-testid="btnAllChars">
-        <a href="personAll">VEJA TODOS PERSONAGENS</a>
+        <a href="allChars">VEJA TODOS PERSONAGENS</a>
       </button>
 
       <div className="vejaCasas">

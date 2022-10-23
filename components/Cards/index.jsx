@@ -20,7 +20,7 @@ export default function PersonagemCard({ personagem }) {
           <Typography
             sx={{ color: "#A6955A", textAlign: "center" }}
             gutterBottom
-            variant="h4"
+            variant="h5"
             component="div"
           >
             {personagem.name}

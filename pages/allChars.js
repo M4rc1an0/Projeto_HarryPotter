@@ -1,5 +1,4 @@
 import Cards from "../components/Cards";
-import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
@@ -10,7 +9,8 @@ import Popup from "../components/Popup";
 import Url from "../components/Url";
 import style from "../styles/style.module.css";
 
-export default function PersonAll() {
+
+export default function Allchars() {
   const [personagens, setPersonagens] = useState([]);
   const [open, setOpen] = useState(false);
 
@@ -22,7 +22,7 @@ export default function PersonAll() {
   }, []);
 
   const [person, setPerson] = useState(false);
-  const person1 = (personagem) => {
+  const personPopUp = (personagem) => {
     setOpen(true);
     setPerson(personagem);
   };
@@ -58,7 +58,7 @@ export default function PersonAll() {
               md={3}
               lg={2.2}
               key={key}
-              onClick={() => person1(personagem)}
+              onClick={() => personPopUp(personagem)}
             >
               <Cards personagem={personagem} />
             </Grid>

@@ -2,7 +2,6 @@ import Navbar from "../../components/Navbar";
 import { Container } from "@mui/system";
 import { Grid, Box } from "@mui/material";
 import Popup from "../../components/Popup";
-import UrlHouse from "../../components/urlHouse";
 import Cards from "../../components/Cards";
 import { useEffect, useState } from "react";
 import style from "../../styles/style.module.css";

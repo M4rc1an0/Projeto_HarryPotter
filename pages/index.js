@@ -1,5 +1,5 @@
-import Fundo from "../components/fundo";
+import Inicio from "../components/Inicio";
 
 export default function Home() {
-  return <div className="conteiner">{Fundo()}</div>;
+  return <div className="conteiner">{Inicio()}</div>;
 }
