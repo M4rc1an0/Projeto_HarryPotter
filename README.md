@@ -1,5 +1,5 @@
 # PROJETO HARRY POTTER
-[![NPM](https://img.shields.io/apm/l/react)](https://github.com/vrrMarques/Projeto_HarryPotter/blob/main/LICENSE)
+[![NPM](https://img.shields.io/badge/license-MIT-green)](https://github.com/vrrMarques/Projeto_HarryPotter/blob/main/LICENSE)
 
 # SOBRE O PROJETO
 O projeto harry potter é um projeto Front-End desenvolvido em NEXT.js.
